@@ -1,4 +1,4 @@
 package som;
 
-public class SimpleSOM implements SOM{
+public class SimpleSOM implements SOM {
 }

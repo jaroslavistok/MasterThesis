@@ -8,5 +8,8 @@ public class Application {
         ArtificialNeuron neuron =
                 new ArtificialNeuron.NeuronBuilder(new WeightedSummingFunction(), new SigmoidActivationFunction())
                         .neuronID(12).build();
+
+
+        System.out.println("Generated Random Number: " + Math.random());
     }
 }

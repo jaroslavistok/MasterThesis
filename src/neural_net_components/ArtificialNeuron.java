@@ -53,7 +53,7 @@ public class ArtificialNeuron {
     }
 
     public double calculateOutput(){
-        double totalInput = inputSummingFunction.calculate(inputConnections);
+        double totalInput = inputSummingFunction.calculateSum(inputConnections);
         return activationFunction.calculate(totalInput);
     }
 

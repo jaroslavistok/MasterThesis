@@ -6,7 +6,7 @@ import java.util.List;
 
 public class WeightedSummingFunction implements InputSummingFunction {
     @Override
-    public double calculate(List<Connection> connectionList) {
+    public double calculateSum(List<Connection> connectionList) {
         double weightedSum = 0d;
 
         for (Connection connection : connectionList) {

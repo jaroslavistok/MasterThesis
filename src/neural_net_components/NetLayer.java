@@ -12,4 +12,6 @@ public class NetLayer {
         this.id = id;
         this.neuronsInLayer = new ArrayList<>();
     }
+
+
 }

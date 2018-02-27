@@ -5,5 +5,5 @@ import connections.Connection;
 import java.util.List;
 
 public interface InputSummingFunction {
-    double calculate(List<Connection> connectionList);
+    double calculateSum(List<Connection> connectionList);
 }
